@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099EB0260441BE135C94CACB823CF857 /* NSError+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A312F9A10F2D80A7DCB27B08ECE7C393 /* NSError+Helper.swift */; };
+		0D76A5AF0D4781BFAC4D92B66E3A30B4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1314F41D4AF302873CCAE4DF95096E /* SwiftyJSON.framework */; };
+		1BBAB625AED78A939B09EC9B215F083D /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D480BEDF3003AA8FB9719AB4CEEB62D /* Transport.swift */; };
+		1D9F765D7226F81517EEACB2B6EE02D6 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FCC8C39B10D9A3A1A2FE4D63B6BC72 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28C0AAC7411F7B0119386A9B2324F414 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D0E9E3BBF581D11B303D9C3C977F1 /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3BB4710937C0AF4EE558A688662C5F2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74C803E3A0934299E339BE9FA4CBEF8 /* Foundation.framework */; };
+		440DCC8753BB1FD06FF05984D002DAFE /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A322F93E049078F142422B345262E /* SwiftyJSON-dummy.m */; };
+		4F6AB79FA2ADEC11423A3782E26DC919 /* FayeSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA67F8F361015FE620A02C7A3A3EC91 /* FayeSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		621412977F084A6ED775147D394F45C2 /* Pods-Psycho-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB52F58E3E0193D07E7530325E34764E /* Pods-Psycho-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B37AAC1945268E56264B4E9C41FB23B /* WebsocketTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381CFB305EBCC8B1162C060D2FEA1F2 /* WebsocketTransport.swift */; };
+		9CEB001351C0D6405A0AB9CDBA3FC8C1 /* FayeClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870E7BAC428524CBCC9851688BCCBB4E /* FayeClientDelegate.swift */; };
+		A9CCD11945B8841EB608A5F794C71505 /* FayeSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AE8AB41C083D9F4C497C18832C3188 /* FayeSwift-dummy.m */; };
+		A9DB76C98B77BAC9C5FB4172E70966EB /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E94F4BAAE418F28A0730CC56D7FACFF /* Starscream.framework */; };
+		AC09049A1C39625D8F5B04AA125C753B /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB514E617AC257CE5F2BA2CCEE2CA9 /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0941FDC7F11C5D12F1B1AD37CD7B34F /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE930F430E24FC1ADF3C6627A9C68B93 /* StringExtensions.swift */; };
+		C5681A6362FFDCE2DECBDEE5BFBC907C /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 590B3F36182DB81DDD428BE195961039 /* Starscream-dummy.m */; };
+		CC8EB6EFCC9EA1CCA5A789AC2998947B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74C803E3A0934299E339BE9FA4CBEF8 /* Foundation.framework */; };
+		E4AB0C2551C39B8C41F500EEEDE87F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74C803E3A0934299E339BE9FA4CBEF8 /* Foundation.framework */; };
+		ED9D42E9E5DCED1337753CD026582CC2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE680B50A989D321062B462FF583EE32 /* SwiftyJSON.swift */; };
+		EFC5DF060E06A54E84C07BDB9F8B93C0 /* Pods-Psycho-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB3C5821DA555D72B1161BE27F620F /* Pods-Psycho-dummy.m */; };
+		F1C91701EDE25A8DF650080551A1EE5F /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0EABA8EE7FAA3EEBFF71BED83FCC62 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F249FD3891DFA2FC9E1D329930B1B5D1 /* FayeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCA896C262DFEAF7059385DF3331775 /* FayeClient.swift */; };
+		FFEA94CDE8E58988D47A29CB794DA984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74C803E3A0934299E339BE9FA4CBEF8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002C971AF7CA74392977401F3B5915E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FFB2621535432DEA9289D0F9EEEE26C;
+			remoteInfo = Starscream;
+		};
+		337F066A42FA015018D089E0E57D9053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72A65D8E20A55005994AAC51F0764161;
+			remoteInfo = SwiftyJSON;
+		};
+		3BD0A2C746E213094BBD1A609EE7575F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72A65D8E20A55005994AAC51F0764161;
+			remoteInfo = SwiftyJSON;
+		};
+		84DF78BC7F9021D756A4EDE56CCF12CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A64AB5E2E8029DC851944646B9BCCBB2;
+			remoteInfo = FayeSwift;
+		};
+		8EE26111BD41AB6932074E86C125E9C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FFB2621535432DEA9289D0F9EEEE26C;
+			remoteInfo = Starscream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007A633162108B2F3E956FFF2C06996C /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		183B73CF8DA66F33970B1D8F20DE1F58 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A727E60C7EE13771B292A85F5D1E88F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244C77D94FEF3A594B6821766CB6492C /* Pods-Psycho-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Psycho-acknowledgements.plist"; sourceTree = "<group>"; };
+		351CC595B56CFE940B747AC9989FD24B /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		35FB3C5821DA555D72B1161BE27F620F /* Pods-Psycho-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Psycho-dummy.m"; sourceTree = "<group>"; };
+		3BFFAEDB56A0153995F2987983F952B5 /* Pods-Psycho-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Psycho-frameworks.sh"; sourceTree = "<group>"; };
+		3E94F4BAAE418F28A0730CC56D7FACFF /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F12A6E4B408012ABE2D9ED3754AF8D2 /* Pods-Psycho.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Psycho.modulemap"; sourceTree = "<group>"; };
+		4752D428E528A3DAB99F48AE41C95E26 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Starscream.modulemap; sourceTree = "<group>"; };
+		4C7123DED6A2DFCE4D935251477CE07D /* FayeSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FayeSwift.xcconfig; sourceTree = "<group>"; };
+		54AB45927178B03F3579E03A6CC23397 /* Pods-Psycho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Psycho.debug.xcconfig"; sourceTree = "<group>"; };
+		590B3F36182DB81DDD428BE195961039 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		5947F18AA15DEDCB11B20447A844FA15 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		5B1A322F93E049078F142422B345262E /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		5BD783DFF73A3042C442CBACB313D95D /* FayeSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FayeSwift-prefix.pch"; sourceTree = "<group>"; };
+		63EB514E617AC257CE5F2BA2CCEE2CA9 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		68B3F2818A2F100C740B1C632B7A0F34 /* Pods_Psycho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Psycho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D480BEDF3003AA8FB9719AB4CEEB62D /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport.swift; sourceTree = "<group>"; };
+		74A0BD0F6983895E4DFC165F8D0AD253 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		80AE8AB41C083D9F4C497C18832C3188 /* FayeSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FayeSwift-dummy.m"; sourceTree = "<group>"; };
+		84FCC8C39B10D9A3A1A2FE4D63B6BC72 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		870E7BAC428524CBCC9851688BCCBB4E /* FayeClientDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FayeClientDelegate.swift; path = Sources/FayeClientDelegate.swift; sourceTree = "<group>"; };
+		8DA67F8F361015FE620A02C7A3A3EC91 /* FayeSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FayeSwift-umbrella.h"; sourceTree = "<group>"; };
+		920AC83CB1EF4B8600D4F125487A1C21 /* Pods-Psycho-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Psycho-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A1314F41D4AF302873CCAE4DF95096E /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAD67DF76D8121D8D75546E13A07D9A /* FayeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FayeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2D0E9E3BBF581D11B303D9C3C977F1 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		A312F9A10F2D80A7DCB27B08ECE7C393 /* NSError+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+Helper.swift"; path = "Sources/NSError+Helper.swift"; sourceTree = "<group>"; };
+		A74C803E3A0934299E339BE9FA4CBEF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A887FAA12F45DC67390EDEA6949C3DB2 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B381CFB305EBCC8B1162C060D2FEA1F2 /* WebsocketTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebsocketTransport.swift; path = Sources/WebsocketTransport.swift; sourceTree = "<group>"; };
+		B6256F1CC6E1AAA1B78C327E7CE1F92F /* Pods-Psycho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Psycho.release.xcconfig"; sourceTree = "<group>"; };
+		BE680B50A989D321062B462FF583EE32 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		C2655780711951F9FA2CFDAB57D38219 /* FayeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FayeSwift.modulemap; sourceTree = "<group>"; };
+		C50D3D1F6BD90D5F96EF25C4F1E9295B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB52F58E3E0193D07E7530325E34764E /* Pods-Psycho-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Psycho-umbrella.h"; sourceTree = "<group>"; };
+		CBCA896C262DFEAF7059385DF3331775 /* FayeClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FayeClient.swift; path = Sources/FayeClient.swift; sourceTree = "<group>"; };
+		CD746D1E926B10DA629EC9289E662670 /* Pods-Psycho-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Psycho-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D05564B68B0A49F25967F30B6C65B46A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2CF0F45572455F210543BA910CEAA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE930F430E24FC1ADF3C6627A9C68B93 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Sources/StringExtensions.swift; sourceTree = "<group>"; };
+		EB0EABA8EE7FAA3EEBFF71BED83FCC62 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		EF742D82ECBC40577408006A02663021 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DDD99058CD940FD5917CA5AD774B011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8EB6EFCC9EA1CCA5A789AC2998947B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824095B04AA69FB2B911EBE1E9FA84BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB0C2551C39B8C41F500EEEDE87F11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E208C52EE6C8C0689C1B94807309CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEA94CDE8E58988D47A29CB794DA984 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F66B163042240ECC70017F4B2423C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB4710937C0AF4EE558A688662C5F2B /* Foundation.framework in Frameworks */,
+				A9DB76C98B77BAC9C5FB4172E70966EB /* Starscream.framework in Frameworks */,
+				0D76A5AF0D4781BFAC4D92B66E3A30B4 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB5BD81DCAEB161F8916282ABFD3340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E94F4BAAE418F28A0730CC56D7FACFF /* Starscream.framework */,
+				9A1314F41D4AF302873CCAE4DF95096E /* SwiftyJSON.framework */,
+				299983A4A5B7BA2DFED7CE0AF25B1627 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F6B752A8535BA6EA359987167A96CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BAD67DF76D8121D8D75546E13A07D9A /* FayeSwift.framework */,
+				68B3F2818A2F100C740B1C632B7A0F34 /* Pods_Psycho.framework */,
+				183B73CF8DA66F33970B1D8F20DE1F58 /* Starscream.framework */,
+				A887FAA12F45DC67390EDEA6949C3DB2 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14DA9E85EBD528A3BFB56E83101EF190 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18F323B09F57F3B1C2764CD7E531787B /* FayeSwift */,
+				3A423C38FDD8E54B4EC8EAE0707F0C1E /* Starscream */,
+				CAAF23E1FBCA3CA555A2B5ECA85832C5 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18F323B09F57F3B1C2764CD7E531787B /* FayeSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CBCA896C262DFEAF7059385DF3331775 /* FayeClient.swift */,
+				870E7BAC428524CBCC9851688BCCBB4E /* FayeClientDelegate.swift */,
+				A312F9A10F2D80A7DCB27B08ECE7C393 /* NSError+Helper.swift */,
+				DE930F430E24FC1ADF3C6627A9C68B93 /* StringExtensions.swift */,
+				6D480BEDF3003AA8FB9719AB4CEEB62D /* Transport.swift */,
+				B381CFB305EBCC8B1162C060D2FEA1F2 /* WebsocketTransport.swift */,
+				652ABEC183918E6111D084B1C22A693C /* Support Files */,
+			);
+			path = FayeSwift;
+			sourceTree = "<group>";
+		};
+		299983A4A5B7BA2DFED7CE0AF25B1627 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A74C803E3A0934299E339BE9FA4CBEF8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2E2A2EE86DA13E4868EFE4B3D57A34B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB73486CF801C13353D35F3237701BB6 /* Pods-Psycho */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A423C38FDD8E54B4EC8EAE0707F0C1E /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				9D2D0E9E3BBF581D11B303D9C3C977F1 /* SSLSecurity.swift */,
+				63EB514E617AC257CE5F2BA2CCEE2CA9 /* WebSocket.swift */,
+				E959AD504B0BBA3C7D1C86E912C2C4A4 /* Support Files */,
+			);
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		652ABEC183918E6111D084B1C22A693C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2655780711951F9FA2CFDAB57D38219 /* FayeSwift.modulemap */,
+				4C7123DED6A2DFCE4D935251477CE07D /* FayeSwift.xcconfig */,
+				80AE8AB41C083D9F4C497C18832C3188 /* FayeSwift-dummy.m */,
+				5BD783DFF73A3042C442CBACB313D95D /* FayeSwift-prefix.pch */,
+				8DA67F8F361015FE620A02C7A3A3EC91 /* FayeSwift-umbrella.h */,
+				C50D3D1F6BD90D5F96EF25C4F1E9295B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FayeSwift";
+			sourceTree = "<group>";
+		};
+		74D6BF4B55AFCC48AEB5451CEB942FE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A727E60C7EE13771B292A85F5D1E88F /* Info.plist */,
+				351CC595B56CFE940B747AC9989FD24B /* SwiftyJSON.modulemap */,
+				007A633162108B2F3E956FFF2C06996C /* SwiftyJSON.xcconfig */,
+				5B1A322F93E049078F142422B345262E /* SwiftyJSON-dummy.m */,
+				74A0BD0F6983895E4DFC165F8D0AD253 /* SwiftyJSON-prefix.pch */,
+				84FCC8C39B10D9A3A1A2FE4D63B6BC72 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0DB5BD81DCAEB161F8916282ABFD3340 /* Frameworks */,
+				14DA9E85EBD528A3BFB56E83101EF190 /* Pods */,
+				0F6B752A8535BA6EA359987167A96CD4 /* Products */,
+				2E2A2EE86DA13E4868EFE4B3D57A34B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AB73486CF801C13353D35F3237701BB6 /* Pods-Psycho */ = {
+			isa = PBXGroup;
+			children = (
+				DD2CF0F45572455F210543BA910CEAA7 /* Info.plist */,
+				3F12A6E4B408012ABE2D9ED3754AF8D2 /* Pods-Psycho.modulemap */,
+				CD746D1E926B10DA629EC9289E662670 /* Pods-Psycho-acknowledgements.markdown */,
+				244C77D94FEF3A594B6821766CB6492C /* Pods-Psycho-acknowledgements.plist */,
+				35FB3C5821DA555D72B1161BE27F620F /* Pods-Psycho-dummy.m */,
+				3BFFAEDB56A0153995F2987983F952B5 /* Pods-Psycho-frameworks.sh */,
+				920AC83CB1EF4B8600D4F125487A1C21 /* Pods-Psycho-resources.sh */,
+				CB52F58E3E0193D07E7530325E34764E /* Pods-Psycho-umbrella.h */,
+				54AB45927178B03F3579E03A6CC23397 /* Pods-Psycho.debug.xcconfig */,
+				B6256F1CC6E1AAA1B78C327E7CE1F92F /* Pods-Psycho.release.xcconfig */,
+			);
+			name = "Pods-Psycho";
+			path = "Target Support Files/Pods-Psycho";
+			sourceTree = "<group>";
+		};
+		CAAF23E1FBCA3CA555A2B5ECA85832C5 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BE680B50A989D321062B462FF583EE32 /* SwiftyJSON.swift */,
+				74D6BF4B55AFCC48AEB5451CEB942FE6 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		E959AD504B0BBA3C7D1C86E912C2C4A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05564B68B0A49F25967F30B6C65B46A /* Info.plist */,
+				4752D428E528A3DAB99F48AE41C95E26 /* Starscream.modulemap */,
+				EF742D82ECBC40577408006A02663021 /* Starscream.xcconfig */,
+				590B3F36182DB81DDD428BE195961039 /* Starscream-dummy.m */,
+				5947F18AA15DEDCB11B20447A844FA15 /* Starscream-prefix.pch */,
+				EB0EABA8EE7FAA3EEBFF71BED83FCC62 /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12EF7FDEB19D31D41601F9B55ACF54D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621412977F084A6ED775147D394F45C2 /* Pods-Psycho-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5744E51CF8ECA084D92426D57DC945EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6AB79FA2ADEC11423A3782E26DC919 /* FayeSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9361BD7539E0A621237603846E00D81E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C91701EDE25A8DF650080551A1EE5F /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4D3B670D373E4D9F2C0E061EF8C589 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9F765D7226F81517EEACB2B6EE02D6 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FFB2621535432DEA9289D0F9EEEE26C /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4FCAF5C9B5FE17B150653EFC153B3C /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				6F6B01E4869FC29404539D1F7EA47967 /* Sources */,
+				C3E208C52EE6C8C0689C1B94807309CD /* Frameworks */,
+				9361BD7539E0A621237603846E00D81E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 183B73CF8DA66F33970B1D8F20DE1F58 /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41B1F4419B10053F962BF8022864CE89 /* Pods-Psycho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BC3211B3D812775274353361C4EEA8 /* Build configuration list for PBXNativeTarget "Pods-Psycho" */;
+			buildPhases = (
+				1F3B5AD95D7B72558D898487521A019B /* Sources */,
+				824095B04AA69FB2B911EBE1E9FA84BF /* Frameworks */,
+				12EF7FDEB19D31D41601F9B55ACF54D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD4BC066B8D8F7F7029FBCFD238E47A /* PBXTargetDependency */,
+				FB2A6B6BA995C43EBA0A9A8266F962DB /* PBXTargetDependency */,
+				B8FA114DE5E51B2CFD098529ED300D29 /* PBXTargetDependency */,
+			);
+			name = "Pods-Psycho";
+			productName = "Pods-Psycho";
+			productReference = 68B3F2818A2F100C740B1C632B7A0F34 /* Pods_Psycho.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72A65D8E20A55005994AAC51F0764161 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4323D789F482019F76D08873013AC9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				095C3CA76A748A3321E9C4F4D4B167AB /* Sources */,
+				1DDD99058CD940FD5917CA5AD774B011 /* Frameworks */,
+				DA4D3B670D373E4D9F2C0E061EF8C589 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = A887FAA12F45DC67390EDEA6949C3DB2 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A64AB5E2E8029DC851944646B9BCCBB2 /* FayeSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B81CC02BA5C8A6F2E0D126266A157A1 /* Build configuration list for PBXNativeTarget "FayeSwift" */;
+			buildPhases = (
+				B235B2441DEE29F62B681E4D88FC614D /* Sources */,
+				C5F66B163042240ECC70017F4B2423C7 /* Frameworks */,
+				5744E51CF8ECA084D92426D57DC945EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334521CDCF3F9A42442BD9C944494648 /* PBXTargetDependency */,
+				97A4D1CD8C418326C4A40D8446A9BAC8 /* PBXTargetDependency */,
+			);
+			name = FayeSwift;
+			productName = FayeSwift;
+			productReference = 9BAD67DF76D8121D8D75546E13A07D9A /* FayeSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0F6B752A8535BA6EA359987167A96CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64AB5E2E8029DC851944646B9BCCBB2 /* FayeSwift */,
+				41B1F4419B10053F962BF8022864CE89 /* Pods-Psycho */,
+				0FFB2621535432DEA9289D0F9EEEE26C /* Starscream */,
+				72A65D8E20A55005994AAC51F0764161 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		095C3CA76A748A3321E9C4F4D4B167AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440DCC8753BB1FD06FF05984D002DAFE /* SwiftyJSON-dummy.m in Sources */,
+				ED9D42E9E5DCED1337753CD026582CC2 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3B5AD95D7B72558D898487521A019B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC5DF060E06A54E84C07BDB9F8B93C0 /* Pods-Psycho-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6B01E4869FC29404539D1F7EA47967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C0AAC7411F7B0119386A9B2324F414 /* SSLSecurity.swift in Sources */,
+				C5681A6362FFDCE2DECBDEE5BFBC907C /* Starscream-dummy.m in Sources */,
+				AC09049A1C39625D8F5B04AA125C753B /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B235B2441DEE29F62B681E4D88FC614D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F249FD3891DFA2FC9E1D329930B1B5D1 /* FayeClient.swift in Sources */,
+				9CEB001351C0D6405A0AB9CDBA3FC8C1 /* FayeClientDelegate.swift in Sources */,
+				A9CCD11945B8841EB608A5F794C71505 /* FayeSwift-dummy.m in Sources */,
+				099EB0260441BE135C94CACB823CF857 /* NSError+Helper.swift in Sources */,
+				B0941FDC7F11C5D12F1B1AD37CD7B34F /* StringExtensions.swift in Sources */,
+				1BBAB625AED78A939B09EC9B215F083D /* Transport.swift in Sources */,
+				8B37AAC1945268E56264B4E9C41FB23B /* WebsocketTransport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD4BC066B8D8F7F7029FBCFD238E47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FayeSwift;
+			target = A64AB5E2E8029DC851944646B9BCCBB2 /* FayeSwift */;
+			targetProxy = 84DF78BC7F9021D756A4EDE56CCF12CF /* PBXContainerItemProxy */;
+		};
+		334521CDCF3F9A42442BD9C944494648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 0FFB2621535432DEA9289D0F9EEEE26C /* Starscream */;
+			targetProxy = 002C971AF7CA74392977401F3B5915E3 /* PBXContainerItemProxy */;
+		};
+		97A4D1CD8C418326C4A40D8446A9BAC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 72A65D8E20A55005994AAC51F0764161 /* SwiftyJSON */;
+			targetProxy = 3BD0A2C746E213094BBD1A609EE7575F /* PBXContainerItemProxy */;
+		};
+		B8FA114DE5E51B2CFD098529ED300D29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 72A65D8E20A55005994AAC51F0764161 /* SwiftyJSON */;
+			targetProxy = 337F066A42FA015018D089E0E57D9053 /* PBXContainerItemProxy */;
+		};
+		FB2A6B6BA995C43EBA0A9A8266F962DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 0FFB2621535432DEA9289D0F9EEEE26C /* Starscream */;
+			targetProxy = 8EE26111BD41AB6932074E86C125E9C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0BE2EDF0F01229E54AB086731056F417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF742D82ECBC40577408006A02663021 /* Starscream.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		319022B0451C7D7776478A225B3BD631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6256F1CC6E1AAA1B78C327E7CE1F92F /* Pods-Psycho.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Psycho/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Psycho/Pods-Psycho.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Psycho;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72BF3420A6FA8B05672909E18AED9A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF742D82ECBC40577408006A02663021 /* Starscream.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C839AD5D887E29DF64A9A7D61074767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54AB45927178B03F3579E03A6CC23397 /* Pods-Psycho.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Psycho/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Psycho/Pods-Psycho.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Psycho;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90F3C9B552912D039E564EBB15FB8AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7123DED6A2DFCE4D935251477CE07D /* FayeSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FayeSwift/FayeSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FayeSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FayeSwift/FayeSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FayeSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A49E8523FF665FDFC1FD8FE2704BCE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7123DED6A2DFCE4D935251477CE07D /* FayeSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FayeSwift/FayeSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FayeSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FayeSwift/FayeSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FayeSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B268E91440D72EA7BA9647AA37AA9B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007A633162108B2F3E956FFF2C06996C /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F118501FAAA52A7D5067CB20DDA1D8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007A633162108B2F3E956FFF2C06996C /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B81CC02BA5C8A6F2E0D126266A157A1 /* Build configuration list for PBXNativeTarget "FayeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F3C9B552912D039E564EBB15FB8AB4 /* Debug */,
+				A49E8523FF665FDFC1FD8FE2704BCE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4FCAF5C9B5FE17B150653EFC153B3C /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE2EDF0F01229E54AB086731056F417 /* Debug */,
+				72BF3420A6FA8B05672909E18AED9A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BC3211B3D812775274353361C4EEA8 /* Build configuration list for PBXNativeTarget "Pods-Psycho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C839AD5D887E29DF64A9A7D61074767 /* Debug */,
+				319022B0451C7D7776478A225B3BD631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4323D789F482019F76D08873013AC9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B268E91440D72EA7BA9647AA37AA9B02 /* Debug */,
+				F118501FAAA52A7D5067CB20DDA1D8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

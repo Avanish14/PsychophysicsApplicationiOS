@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208053D9933BE053E2DA429E /* Pods_Psycho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD16C4E3AB1D348042AB4DD0 /* Pods_Psycho.framework */; };
+		2134BBAC1D19A8BA00766679 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134BBAB1D19A8BA00766679 /* ClickerViewController.swift */; };
+		2134BBAE1D1AFA1F00766679 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134BBAD1D1AFA1F00766679 /* DataTableViewCell.swift */; };
+		2138B2C41D19A77B00B0D37F /* IdleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138B2C31D19A77B00B0D37F /* IdleViewController.swift */; };
+		213D89931D37EDC0007206EF /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213D898C1D37EDC0007206EF /* ysocket.swift */; };
+		213D89941D37EDC0007206EF /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 213D898D1D37EDC0007206EF /* ytcpsocket.c */; };
+		213D89951D37EDC0007206EF /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213D898E1D37EDC0007206EF /* ytcpsocket.swift */; };
+		213D89961D37EDC0007206EF /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 213D898F1D37EDC0007206EF /* yudpsocket.c */; };
+		213D89971D37EDC0007206EF /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213D89901D37EDC0007206EF /* yudpsocket.swift */; };
+		215795DB1D1B069B00FBA20C /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215795DA1D1B069B00FBA20C /* DataTableViewController.swift */; };
+		21DC84A11D0F1AEB005EABB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC84A01D0F1AEB005EABB0 /* AppDelegate.swift */; };
+		21DC84A31D0F1AEB005EABB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC84A21D0F1AEB005EABB0 /* ViewController.swift */; };
+		21DC84A61D0F1AEB005EABB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DC84A41D0F1AEB005EABB0 /* Main.storyboard */; };
+		21DC84A81D0F1AEB005EABB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21DC84A71D0F1AEB005EABB0 /* Assets.xcassets */; };
+		21DC84AB1D0F1AEB005EABB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DC84A91D0F1AEB005EABB0 /* LaunchScreen.storyboard */; };
+		21DC84B61D0F1AEB005EABB0 /* PsychoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC84B51D0F1AEB005EABB0 /* PsychoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21DC84B21D0F1AEB005EABB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DC84951D0F1AEB005EABB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DC849C1D0F1AEB005EABB0;
+			remoteInfo = Psycho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2134BBAB1D19A8BA00766679 /* ClickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
+		2134BBAD1D1AFA1F00766679 /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		2138B2C31D19A77B00B0D37F /* IdleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdleViewController.swift; sourceTree = "<group>"; };
+		213D898C1D37EDC0007206EF /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		213D898D1D37EDC0007206EF /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		213D898E1D37EDC0007206EF /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		213D898F1D37EDC0007206EF /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		213D89901D37EDC0007206EF /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		215795DA1D1B069B00FBA20C /* DataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		21DC849D1D0F1AEB005EABB0 /* Psycho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psycho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DC84A01D0F1AEB005EABB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21DC84A21D0F1AEB005EABB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21DC84A51D0F1AEB005EABB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21DC84A71D0F1AEB005EABB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21DC84AA1D0F1AEB005EABB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21DC84AC1D0F1AEB005EABB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DC84B11D0F1AEB005EABB0 /* PsychoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DC84B51D0F1AEB005EABB0 /* PsychoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychoTests.swift; sourceTree = "<group>"; };
+		21DC84B71D0F1AEB005EABB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2931F80646069F70F23CF561 /* Pods-Psycho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Psycho.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Psycho/Pods-Psycho.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7772D9D8A5663115F5A8A3 /* Pods-Psycho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Psycho.release.xcconfig"; path = "Pods/Target Support Files/Pods-Psycho/Pods-Psycho.release.xcconfig"; sourceTree = "<group>"; };
+		DD16C4E3AB1D348042AB4DD0 /* Pods_Psycho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Psycho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21DC849A1D0F1AEB005EABB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208053D9933BE053E2DA429E /* Pods_Psycho.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DC84AE1D0F1AEB005EABB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E30ACB8A3C0F19460CCC5BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2931F80646069F70F23CF561 /* Pods-Psycho.debug.xcconfig */,
+				4A7772D9D8A5663115F5A8A3 /* Pods-Psycho.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		213D89911D37EDC0007206EF /* ysocket */ = {
+			isa = PBXGroup;
+			children = (
+				213D898C1D37EDC0007206EF /* ysocket.swift */,
+				213D898D1D37EDC0007206EF /* ytcpsocket.c */,
+				213D898E1D37EDC0007206EF /* ytcpsocket.swift */,
+				213D898F1D37EDC0007206EF /* yudpsocket.c */,
+				213D89901D37EDC0007206EF /* yudpsocket.swift */,
+			);
+			path = ysocket;
+			sourceTree = "<group>";
+		};
+		213D89921D37EDC0007206EF /* SwiftSocket */ = {
+			isa = PBXGroup;
+			children = (
+				213D89911D37EDC0007206EF /* ysocket */,
+			);
+			name = SwiftSocket;
+			path = ../SocketClientTest/SwiftSocket;
+			sourceTree = "<group>";
+		};
+		21DC84941D0F1AEB005EABB0 = {
+			isa = PBXGroup;
+			children = (
+				213D89921D37EDC0007206EF /* SwiftSocket */,
+				21DC849F1D0F1AEB005EABB0 /* Psycho */,
+				21DC84B41D0F1AEB005EABB0 /* PsychoTests */,
+				21DC849E1D0F1AEB005EABB0 /* Products */,
+				0E30ACB8A3C0F19460CCC5BE /* Pods */,
+				BE7148A0655A7AE51295A208 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21DC849E1D0F1AEB005EABB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21DC849D1D0F1AEB005EABB0 /* Psycho.app */,
+				21DC84B11D0F1AEB005EABB0 /* PsychoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21DC849F1D0F1AEB005EABB0 /* Psycho */ = {
+			isa = PBXGroup;
+			children = (
+				215795DA1D1B069B00FBA20C /* DataTableViewController.swift */,
+				2134BBAD1D1AFA1F00766679 /* DataTableViewCell.swift */,
+				2138B2C31D19A77B00B0D37F /* IdleViewController.swift */,
+				2134BBAB1D19A8BA00766679 /* ClickerViewController.swift */,
+				21DC84A01D0F1AEB005EABB0 /* AppDelegate.swift */,
+				21DC84A21D0F1AEB005EABB0 /* ViewController.swift */,
+				21DC84A41D0F1AEB005EABB0 /* Main.storyboard */,
+				21DC84A71D0F1AEB005EABB0 /* Assets.xcassets */,
+				21DC84A91D0F1AEB005EABB0 /* LaunchScreen.storyboard */,
+				21DC84AC1D0F1AEB005EABB0 /* Info.plist */,
+			);
+			path = Psycho;
+			sourceTree = "<group>";
+		};
+		21DC84B41D0F1AEB005EABB0 /* PsychoTests */ = {
+			isa = PBXGroup;
+			children = (
+				21DC84B51D0F1AEB005EABB0 /* PsychoTests.swift */,
+				21DC84B71D0F1AEB005EABB0 /* Info.plist */,
+			);
+			path = PsychoTests;
+			sourceTree = "<group>";
+		};
+		BE7148A0655A7AE51295A208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD16C4E3AB1D348042AB4DD0 /* Pods_Psycho.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21DC849C1D0F1AEB005EABB0 /* Psycho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DC84BA1D0F1AEB005EABB0 /* Build configuration list for PBXNativeTarget "Psycho" */;
+			buildPhases = (
+				3E634DC6611EEDAA4D20F09B /* 📦 Check Pods Manifest.lock */,
+				21DC84991D0F1AEB005EABB0 /* Sources */,
+				21DC849A1D0F1AEB005EABB0 /* Frameworks */,
+				21DC849B1D0F1AEB005EABB0 /* Resources */,
+				4C0AA8B4618DADDA3B8F4132 /* 📦 Embed Pods Frameworks */,
+				25924C94BCEEF6CCA24D29AA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Psycho;
+			productName = Psycho;
+			productReference = 21DC849D1D0F1AEB005EABB0 /* Psycho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21DC84B01D0F1AEB005EABB0 /* PsychoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DC84BD1D0F1AEB005EABB0 /* Build configuration list for PBXNativeTarget "PsychoTests" */;
+			buildPhases = (
+				21DC84AD1D0F1AEB005EABB0 /* Sources */,
+				21DC84AE1D0F1AEB005EABB0 /* Frameworks */,
+				21DC84AF1D0F1AEB005EABB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21DC84B31D0F1AEB005EABB0 /* PBXTargetDependency */,
+			);
+			name = PsychoTests;
+			productName = PsychoTests;
+			productReference = 21DC84B11D0F1AEB005EABB0 /* PsychoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21DC84951D0F1AEB005EABB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Avanish;
+				TargetAttributes = {
+					21DC849C1D0F1AEB005EABB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K8Q8VU5PX6;
+					};
+					21DC84B01D0F1AEB005EABB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 21DC849C1D0F1AEB005EABB0;
+					};
+				};
+			};
+			buildConfigurationList = 21DC84981D0F1AEB005EABB0 /* Build configuration list for PBXProject "Psycho" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21DC84941D0F1AEB005EABB0;
+			productRefGroup = 21DC849E1D0F1AEB005EABB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21DC849C1D0F1AEB005EABB0 /* Psycho */,
+				21DC84B01D0F1AEB005EABB0 /* PsychoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DC849B1D0F1AEB005EABB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DC84AB1D0F1AEB005EABB0 /* LaunchScreen.storyboard in Resources */,
+				21DC84A81D0F1AEB005EABB0 /* Assets.xcassets in Resources */,
+				21DC84A61D0F1AEB005EABB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DC84AF1D0F1AEB005EABB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25924C94BCEEF6CCA24D29AA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Psycho/Pods-Psycho-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E634DC6611EEDAA4D20F09B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C0AA8B4618DADDA3B8F4132 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Psycho/Pods-Psycho-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21DC84991D0F1AEB005EABB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DC84A31D0F1AEB005EABB0 /* ViewController.swift in Sources */,
+				213D89931D37EDC0007206EF /* ysocket.swift in Sources */,
+				215795DB1D1B069B00FBA20C /* DataTableViewController.swift in Sources */,
+				213D89951D37EDC0007206EF /* ytcpsocket.swift in Sources */,
+				21DC84A11D0F1AEB005EABB0 /* AppDelegate.swift in Sources */,
+				213D89971D37EDC0007206EF /* yudpsocket.swift in Sources */,
+				2134BBAE1D1AFA1F00766679 /* DataTableViewCell.swift in Sources */,
+				213D89961D37EDC0007206EF /* yudpsocket.c in Sources */,
+				2134BBAC1D19A8BA00766679 /* ClickerViewController.swift in Sources */,
+				213D89941D37EDC0007206EF /* ytcpsocket.c in Sources */,
+				2138B2C41D19A77B00B0D37F /* IdleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DC84AD1D0F1AEB005EABB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DC84B61D0F1AEB005EABB0 /* PsychoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21DC84B31D0F1AEB005EABB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DC849C1D0F1AEB005EABB0 /* Psycho */;
+			targetProxy = 21DC84B21D0F1AEB005EABB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21DC84A41D0F1AEB005EABB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DC84A51D0F1AEB005EABB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21DC84A91D0F1AEB005EABB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DC84AA1D0F1AEB005EABB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21DC84B81D0F1AEB005EABB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21DC84B91D0F1AEB005EABB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21DC84BB1D0F1AEB005EABB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2931F80646069F70F23CF561 /* Pods-Psycho.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Psycho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Psycho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		21DC84BC1D0F1AEB005EABB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7772D9D8A5663115F5A8A3 /* Pods-Psycho.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Psycho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Psycho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		21DC84BE1D0F1AEB005EABB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PsychoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PsychoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psycho.app/Psycho";
+			};
+			name = Debug;
+		};
+		21DC84BF1D0F1AEB005EABB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PsychoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PsychoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psycho.app/Psycho";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21DC84981D0F1AEB005EABB0 /* Build configuration list for PBXProject "Psycho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DC84B81D0F1AEB005EABB0 /* Debug */,
+				21DC84B91D0F1AEB005EABB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DC84BA1D0F1AEB005EABB0 /* Build configuration list for PBXNativeTarget "Psycho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DC84BB1D0F1AEB005EABB0 /* Debug */,
+				21DC84BC1D0F1AEB005EABB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DC84BD1D0F1AEB005EABB0 /* Build configuration list for PBXNativeTarget "PsychoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DC84BE1D0F1AEB005EABB0 /* Debug */,
+				21DC84BF1D0F1AEB005EABB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21DC84951D0F1AEB005EABB0 /* Project object */;
+}
