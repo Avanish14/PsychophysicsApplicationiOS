@@ -1,12 +1,12 @@
 # PsychophysicsClientiOS
 
-An iOS Client to be used for a psychophysics study at WINLAB. 
+An iOS application to be used for a psychophysics study at WINLAB. 
 More details about the project and study can be found at [http://sites.google.com/site/psychophysicsapp.](http://sites.google.com/site/psychophysicsapp)
 
 # References 
 
-* [Faye](https://github.com/faye/faye) - connects to a Faye server
-* [FayeSwift](https://github.com/hamin/FayeSwift) - implements FayeSwift client
+* [Faye](https://github.com/faye/faye) - server that PsychophysicsClientiOS connects to
+* [FayeSwift](https://github.com/hamin/FayeSwift) - client that PsychophysicsClientiOS implements
 
 # License
 
